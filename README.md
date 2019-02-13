@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 AAC音频编码,播放
 =======
 https://smart-voice-stg.pingan.com.cn:10422/nfsc/csp_isps_core_id005707_vol1003_stg/API/VPROMP01/TTS_HTTP/vprompttshttp01/20190212/1549939956202574.aac

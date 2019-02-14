@@ -3,6 +3,8 @@ iOS下解码AAC并播放
 https://smart-voice-stg.pingan.com.cn:10422/nfsc/csp_isps_core_id005707_vol1003_stg/API/VPROMP01/TTS_HTTP/vprompttshttp01/20190212/1549939956202574.aac
 >>>>>>> 
 
+#### iOS系统对音频处理做了三层封装。包括应用层、服务层和硬件层。
+
 我们本次使用的都是服务层的接口。也就是上图中被红色框起来的部分。该层更接近于底层，所以灵活性更大，性能也更好。尤其对于直播相关的项目最好使用该层接口。
 在iOS下进行音频解码及播放的大体流程如下：
 
